@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Computational Biophysics a.a. 2023-2024"
+  author: "Guglielmo Grillo et al"
+  date: "10/02/2023"
+  chapters:
+    - part: "Theory - Lattanzi"
+      chapters:
+        - index.qmd
+        - intro.qmd
+        - summary.qmd
+    - part: "Laboratory - Tubiana"
+      chapters:
+        - index.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: superhero
+  pdf:
+    documentclass: scrreprt
+
+
+
